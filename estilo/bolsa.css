@@ -1,7 +1,8 @@
 #sec-ativos {
     text-align: center;
+    display: flex;
 }
-#ativos-mglu3-img {
+.img-ativos {
     width: 65px;
 }
 
