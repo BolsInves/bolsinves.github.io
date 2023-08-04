@@ -7,24 +7,29 @@
 }
 
 .sec-ativos {
-    background-color: #004c68;
+    background-color: rgba(0, 0, 0, 0.233);
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding: 19px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-color: #004c68;
+    border-width: 1px;
+    border-style: solid;
 }
 .sec-ativos:hover {
-    background-color: #0a7399;
-    transition: 200ms;
+    background-color: #0a7399ab;
+    transition: 500ms;
 }
-.link-ativos {
+
+.button-ativos {
+    background-color: #ffffff17;
     color: white;
-    text-decoration: none;
-    text-shadow: 1px 1px 2px black;
+    border: 0;
+    border-radius: 5px;
+    border: #004c68 1px solid;
 }
-.link-ativos:hover {
+.button-ativos:hover {
     transition: 200ms;
-    color: rgb(189, 189, 189);
+    background-color: rgba(0, 255, 0, 0.171);
 }
