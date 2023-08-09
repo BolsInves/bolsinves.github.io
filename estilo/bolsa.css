@@ -33,3 +33,6 @@
     transition: 200ms;
     background-color: rgba(0, 255, 0, 0.171);
 }
+.text-ativos {
+    cursor: default;
+}
