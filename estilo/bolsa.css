@@ -6,6 +6,9 @@
     width: 65px;
 }
 
+#sec-ativos {
+    flex-wrap: wrap;
+}
 .sec-ativos {
     background-color: rgba(0, 0, 0, 0.233);
     width: fit-content;
