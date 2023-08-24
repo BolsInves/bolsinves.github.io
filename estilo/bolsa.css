@@ -10,6 +10,7 @@
     flex-wrap: wrap;
 }
 .sec-ativos {
+    transition: 200ms;
     background-color: rgba(0, 0, 0, 0.233);
     width: fit-content;
     margin-left: auto;
@@ -23,6 +24,7 @@
 .sec-ativos:hover {
     background-color: #0a7399ab;
     transition: 500ms;
+    transform: scale(1.1);
 }
 
 .button-ativos {
