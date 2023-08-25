@@ -1,0 +1,32 @@
+.estudos {
+    transition: 200ms;
+    display: inline-flex;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-color: #004c68;
+    border-width: 1px;
+    border-style: solid;
+}
+.estudos:hover {
+    transition: 500ms;
+    background-color: #0a7399ab;
+}
+
+.videoaula {
+}
+
+@media (max-width:600px) {
+    main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .estudos {
+        width: 100%;
+    }
+    .videoaula {
+        width: 100%;
+    }
+}
