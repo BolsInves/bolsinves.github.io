@@ -3,7 +3,6 @@ body {
     background-color: white;
     margin: 0;
     text-align: center;
-    height: 5000px;
 }
 
 header {
@@ -94,6 +93,12 @@ footer {
 }
 #sec-3 h3, #sec-3-p {
     text-align: center;
+}
+
+/*Trading view*/
+#tradingview-barra {
+    position: fixed;
+    bottom: 0;
 }
 
 /*Barra de rolagem*/

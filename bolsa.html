@@ -22,6 +22,42 @@
         </nav>
         <button id="btn-menu" onclick="abrir()"><img src="./img/menu.svg" alt="Botão Menu"></button>
     </header>
+    <!-- Inicio Trading View -->
+    <div id="tradingview-barra" class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+        "symbols": [
+        {
+          "description": "Apple",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Netflix",
+          "proName": "NASDAQ:NFLX"
+        },
+        {
+          "description": "Meta",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "Microsoft",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Amazon",
+          "proName": "NASDAQ:AMZN"
+        }
+      ],
+      "showSymbolLogo": true,
+      "colorTheme": "dark",
+      "isTransparent": false,
+      "displayMode": "adaptive",
+      "locale": "br"
+    }
+      </script>
+    </div>
+    <!-- Fim Trading View -->
     <main><!--Ativos-->
         <h1>Bolsa</h1>
         <section id="sec-ativos">
@@ -71,6 +107,28 @@
                 <a href='https://br.investing.com/equities/itausa-pn-ej-n1' target="_blank"><button class="button-ativos">Detalhes</button></a>
             </div>
         </section>
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-mercado" class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-stock-heatmap.js" async>
+        {
+        "exchanges": [],
+        "dataSource": "SPX500",
+        "grouping": "sector",
+        "blockSize": "market_cap_basic",
+        "blockColor": "change",
+        "locale": "br",
+        "symbolUrl": "",
+        "colorTheme": "dark",
+        "hasTopBar": false,
+        "isDataSetEnabled": false,
+        "isZoomEnabled": true,
+        "hasSymbolTooltip": false,
+        "width": "100%"
+        }
+        </script>
+        </div>
+        <!-- TradingView Widget END -->
     </main>
     <footer><!--Rodapé-->
         <section class="g-col-6" id="sec-1">
