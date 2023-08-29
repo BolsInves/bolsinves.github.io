@@ -108,9 +108,9 @@
             </div>
         </section>
         <!-- TradingView Widget BEGIN -->
-        <div class="tradingview-mercado" class="tradingview-widget-container">
+        <div id="tradingview-mercado" class="tradingview-widget-container">
         <div class="tradingview-widget-container__widget"></div>
-        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-stock-heatmap.js" async>
+        <script id="tradingview-script" type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-stock-heatmap.js" async>
         {
         "exchanges": [],
         "dataSource": "SPX500",
@@ -123,8 +123,7 @@
         "hasTopBar": false,
         "isDataSetEnabled": false,
         "isZoomEnabled": true,
-        "hasSymbolTooltip": false,
-        "width": "100%"
+        "hasSymbolTooltip": false
         }
         </script>
         </div>

@@ -15,9 +15,6 @@
     background-color: #0a7399ab;
 }
 
-.videoaula {
-}
-
 @media (max-width:600px) {
     main {
         padding-left: 20px;
@@ -25,6 +22,8 @@
     }
     .estudos {
         width: 100%;
+        display: block;
+        text-align: left;
     }
     .videoaula {
         width: 100%;

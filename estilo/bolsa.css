@@ -42,8 +42,9 @@
     cursor: default;
 }
 
-.tradingview-mercado {
-    height: 600px;
+#tradingview-script {
+    width: 100%;
+    height: 80vh;
 }
 
 /*Responsivo*/
