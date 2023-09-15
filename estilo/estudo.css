@@ -63,6 +63,10 @@
     height: 100%;
 }
 
+#hrDiv {
+    color: #d1d4dc;
+}
+
 /*Responsividade Graficos*/
 @media (max-width:768px) {
     #coluna {
