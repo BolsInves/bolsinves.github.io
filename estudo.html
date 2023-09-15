@@ -62,10 +62,30 @@
 <!-- Fim Trading View -->
     <main>
         <h1>Estudo</h1>
-        <!-- Grafico -->
-        <div id="grafico">
-          <iframe height="700" width="1300" src="https://ssltvc.investing.com/?pair_ID=941612&height=700&width=1300&interval=300&plotStyle=candles&domain_ID=30&lang_ID=12&timezone_ID=10"></iframe>
-          </div>
+        <!-- Gráfico -->
+        <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_1f755"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "America/Sao_Paulo",
+  "theme": "dark",
+  "style": "1",
+  "locale": "br",
+  "enable_publishing": false,
+  "hide_volume": true,
+  "container_id": "tradingview_1f755"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+        <!-- Fim Gráfico-->
         <div>
         <section class="estudos">
             <details>
