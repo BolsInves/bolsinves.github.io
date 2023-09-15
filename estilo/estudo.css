@@ -15,9 +15,22 @@
     background-color: #0a7399ab;
 }
 
+#texto-estudo {
+    text-align: justify;
+    color: rgb(212, 212, 212);
+}
+
 .tradingview-widget-container {
-    width: 100%;
+    width: 90%;
     height: 500px;
+}
+
+#coluna {
+    display: flex;
+}
+
+#anotacaoArea {
+    
 }
 
 #tradingview_1f755 {
