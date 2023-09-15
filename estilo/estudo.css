@@ -25,12 +25,37 @@
     height: 500px;
 }
 
+/*Area de anotações*/
 #coluna {
     display: flex;
 }
 
 #anotacaoArea {
-    
+    margin-left: 5px;
+}
+
+#anotacaoResult {
+    resize: none;
+    outline: none;
+    overflow: unset;
+    background-color: #171b26;
+    color: #d1d4dc;
+    border: 1px solid #363c4e;
+    border-radius: 2px;
+    width: 100%;
+    height: 466px;
+}
+
+#anotacaoBotao {
+    background-color: #131722;
+    color: #d1d4dc;
+    border: 1px solid #363c4e;
+    border-radius: 2px;
+    width: 100%;
+}
+#anotacaoBotao:hover {
+    transition: 200ms;
+    background-color: #21283b;
 }
 
 #tradingview_1f755 {
@@ -38,6 +63,22 @@
     height: 100%;
 }
 
+/*Responsividade Graficos*/
+@media (max-width:768px) {
+    #coluna {
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+    .tradingview-widget-container {
+        width: 100%;
+    }
+    #anotacaoArea {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+
+/*Responsividade*/
 @media (max-width:600px) {
     main {
         padding-left: 20px;
