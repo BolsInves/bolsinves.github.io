@@ -10,16 +10,56 @@
     width: 100%;
 }
 
+#calendario {
+    background-color: #152126;
+    margin-bottom: 0;
+}
+
+#cal {
+    background-color: #152126;
+    margin-top: 0px;
+    text-align: right;
+    padding-right: 14px;
+    padding-bottom: 4px;
+}
+
+#acoes {
+    width: 322px;
+    height: 550px;
+}
+
+#acoes-test {
+    gap: 5px;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
 /*Responsivo*/
 @media (max-width:768px) {
     main {
         padding-left: 20px;
         padding-right: 20px;
     }
+    #acoes-test {
+        display: block;
+    }
+    #acoes {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        margin-bottom: 60px;
+    }
+    #test-text {
+        margin-top: 5px;
+    }
 }
 @media (max-width:600px) {
     main {
         padding-left: 5px;
         padding-right: 5px;
+    }
+    #acoes {
+        width: 100%;
     }
 }
