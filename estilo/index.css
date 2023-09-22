@@ -34,6 +34,11 @@
     grid-template-columns: max-content 1fr;
 }
 
+#test-p {
+    color: rgb(212, 212, 212);
+    text-align: justify;
+}
+
 /*Responsivo*/
 @media (max-width:768px) {
     main {
