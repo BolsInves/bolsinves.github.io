@@ -2,6 +2,10 @@ main section {
     margin-bottom: 21px;
 }
 
+main {
+    overflow: hidden;
+}
+
 .socios-img {
     transition: 200ms;
     width: 30px;
